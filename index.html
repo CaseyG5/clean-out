@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slight revision of Craigslist front page</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class=" pt-7 text-blue-700 flex">
+
+    <!-- left sidebar -->
+    <div class="left w-52 ml-7 pt-7 bg-gray-200 gray-border rounded-lg shadow-right flex flex-col justify-between items-center">
+        <h2 class="mx-2 mb-7 text-4xl text-blue-700 font-extrabold">craigslist</h2>
+        <div class="text-center text-md">
+            <a href=""><span class="font-semibold">create a posting</span></a>
+            <br>
+            <a href=""><span class="font-semibold">my account</span></a>
+        </div>
+        <input class="w-10/12 my-7 pl-1.5 border-2 border-gray-400" type="search" placeholder="search craigslist">
+
+        <h6 class="text-sm font-semibold">event calendar</h6>
+        <div class="w-4/5 gray-border text-gray-800 flex flex-col items-center ">
+            <h6>&lt; &nbsp; JUNE 2021 &nbsp; &gt;</h6>
+
+            <br>Calendar<br>
+             here
+        </div>
+
+        <span style="font-family: system-ui; font-size: 64px">&#9774;</span>
+<!--        <i class="fa fa-hand-peace-o text-blue-700" style="font-size:48px;"></i>-->
+    </div>
+
+    <!-- main section -->
+    <div class="w150 mx-5">
+        <div class="w-full h-20 bg-gray-200 gray-border shadow-bottom flex justify-center items-center">
+            <h3 class="mr-3 text-xl font-bold text-black">boston</h3>
+            <div class="w-60 h-6 rounded-md bg-white text-sm flex justify-around">
+                <a href="">gbs</a>
+                <a href="">nwb</a>
+                <a href="">bmw</a>
+                <a href="">nos</a>
+                <a href="">sos</a>
+            </div>
+        </div>
+
+        <div class="w-full my-5 flex justify-between">
+
+            <div class="w-60">      <!-- "community" -->
+                <div class="w-full h-8 mb-4 bg-gray-200 gray-border shadow-bottom text-center font-bold ">community</div>
+
+                <div class="flex justify-between">
+                    <!-- 1st list under "community" -->
+                    <table class="text-sm font-semibold">
+                        <tr> <td>activities</td>    </tr>
+                        <tr> <td>artists</td>       </tr>
+                        <tr> <td>childcare</td>     </tr>
+                        <tr> <td>classes</td>       </tr>
+                        <tr> <td>events</td>        </tr>
+                        <tr> <td>general</td>       </tr>
+                        <tr> <td>groups</td>        </tr>
+                        <tr> <td>local news</td>    </tr>
+                    </table>
+
+                    <!-- 2nd list under "community" -->
+                    <table class="mr-8 text-sm font-semibold">
+                        <tr> <td>lost & found</td>              </tr>
+                        <tr> <td>missed <br>connections</td>    </tr>
+                        <tr> <td>musicians</td>                 </tr>
+                        <tr> <td>pets</td>                      </tr>
+                        <tr> <td>politics</td>                  </tr>
+                        <tr> <td>rants & raves</td>             </tr>
+                        <tr> <td>rideshare</td>                 </tr>
+                        <tr> <td>volunteers</td>                </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="w-40 mx-5">   <!-- "housing" -->
+                <div class="w-full h-8 mb-4 bg-gray-200 gray-border shadow-bottom text-center font-bold">housing</div>
+                <table class="text-sm font-semibold">
+                    <tr> <td>apts / housing</td>        </tr>
+                    <tr> <td>housing swap</td>          </tr>
+                    <tr> <td>housing wanted</td>        </tr>
+                    <tr> <td>office / commercial</td>   </tr>
+                    <tr> <td>parking / storage</td>     </tr>
+                    <tr> <td>real estate for sale</td>  </tr>
+                    <tr> <td>rooms / shared</td>        </tr>
+                    <tr> <td>rooms wanted</td>          </tr>
+                    <tr> <td>sublets / temporary</td>   </tr>
+                    <tr> <td>vacation rentals</td>      </tr>
+                </table>
+            </div>
+
+            <div class="w-40">      <!-- "jobs" -->
+                <div class="w-full h-8 mb-4 bg-gray-200 gray-border shadow-bottom text-center font-bold">jobs</div>
+                <table class="text-sm font-semibold">
+                    <tr>  <td>accounting & finance</td> </tr>
+                    <tr>  <td>admin / office</td>       </tr>
+                    <tr>  <td>arch / engineering</td>   </tr>
+                    <tr>  <td>art / media / design</td> </tr>
+                    <tr>  <td>biotech / science</td>    </tr>
+                    <tr>  <td>business mgmt</td>        </tr>
+                    <tr>  <td>customer service</td>     </tr>
+                    <tr>  <td>education</td>            </tr>
+                    <tr>  <td>etc / misc</td>           </tr>
+                    <tr>  <td>food / bev / hosp</td>    </tr>
+                    <tr>  <td>general labor</td>        </tr>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- right sidebar -->
+    <div class="right w-36 mr-7 bg-gray-200 gray-border rounded-lg shadow-left flex flex-col items-center">
+        <select class="mx-3 my-7 border-2 border-gray-400 text-gray-800" name="language" id="lang">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">French</option>
+            <option value="de">Deutsch</option>
+        </select>
+
+        <div class="w-full border-t-2 border-b-2 border-gray-400 mb-4 bg-white text-center font-bold">nearby cl</div>
+
+        <ul class="list-none text-center text-sm">
+            <li>albany</li>
+            <li>allentown</li>
+            <li>binghamton</li>
+            <li>cape cod</li>
+            <li>catskills</li>
+            <li>central nj</li>
+            <li>eastern ct</li>
+            <li>glen falls</li>
+            <li>hartford</li>
+            <li>hudson valley</li>
+            <li>jersey shore</li>
+            <li>long island</li>
+            <li>maine</li>
+            <li>new hampshire</li>
+        </ul>
+
+
+
+    </div>
+
+</body>
+</html>

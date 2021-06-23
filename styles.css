@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+
+.w150 {
+    width: 600px;
+}
+.gray-border {
+    border: 2px solid gray;
+}
+td {
+    border-bottom: 1px solid lightgray;
+}
+.shadow-right {
+    box-shadow: 4px 0px 5px hsl(0, 0%, 75%);
+}
+.shadow-left {
+    box-shadow: -4px 0px 5px hsl(0, 0%, 75%);
+}
+.shadow-bottom {
+    box-shadow: 0px 4px 5px hsl(0, 0%, 75%);
+}
+
+@tailwind utilities;
